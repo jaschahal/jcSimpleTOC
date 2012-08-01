@@ -43,10 +43,10 @@ jQuery plugin for creating Table of contents form header tags within an Element
 <h2>Usage Example</h2>
 
 <code>
-<div class=".entry">
-    <h1>this is h1</h1>
-    <h2>this is h2</h2>
-</div>
+&lt;div class=".entry">
+    &lt;h1>this is h1&lt;/h1>
+    &lt;h2>this is h2&lt;/h2>
+&lt;/div>
 </code>
 
 <code>
