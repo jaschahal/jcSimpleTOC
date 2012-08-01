@@ -1,0 +1,60 @@
+#jcorgtoc,#jcorgtocminimize {
+      font-family: Calibri,sans-serif;
+      padding:15px 25px 15px 15px ; 
+      border:5px solid rgba(100,100,100,0.1);       
+      position:fixed;
+      background: #f9f9f9;
+      z-index: 999;
+      color:#666;     
+      outline: none; 
+  }
+  #jcorgtoc h1 {
+      margin-left:0px;
+      color:#C00;
+      border-bottom: 1px #666 dotted;
+  }
+  #jcorgtoc div.h1 {
+      font-size:20px;
+      cursor:pointer;
+      font-weight:bold;
+      padding:5px 0px 5px 0px;
+  }
+  #jcorgtoc div.h2 {
+      font-size:18px;
+      cursor:pointer;
+      padding:5px 0px 5px 20px;
+      background:url(node.png) no-repeat 8px -1px;
+  }
+  #jcorgtoc div.h3 {
+      font-size:16px;
+      cursor:pointer;
+      padding:5px 0px 5px 35px;
+      background:url(node.png) no-repeat 25px -1px
+  }
+  #jcorgtoc div.h4 {
+     font-size:14px;
+     cursor:pointer;
+     padding:5px 0px 5px 50px;
+     background:url(node.png) no-repeat 40px -1px
+  }
+  #jcorgtoc div.h1:hover,#jcorgtoc div.h2:hover,#jcorgtoc div.h3:hover,#jcorgtoc div.h4:hover,.jcorgtocactive {
+      background: url(active.png?s) 100% 50% no-repeat !important;
+  }
+  .jspContainer {
+    border:none;
+    background: none;
+  }
+  .jspVerticalBar {
+    background: none;
+    width:12px;  
+  }
+  .jspDrag,.jspTrack {
+    background: #f1f1f1;
+    border-radius:0px 20px 0px 0px;  
+    width:10px;  
+  }
+  .jspDrag {
+   background: #CCC;
+   width:10px; 
+   border-radius:10px;
+  }
